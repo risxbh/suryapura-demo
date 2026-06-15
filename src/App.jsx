@@ -626,6 +626,9 @@ export default function SuryapuraPortal() {
           align-items: center;
           gap: 10px;
           margin-bottom: 18px;
+              text-align: center;
+    justify-content: center;
+
         }
         .sp-eyebrow::before {
           content: "";
