@@ -111,8 +111,8 @@ Error generating stack: `+e.message+`
           position: relative;
           overflow: hidden;
           background-image:
-            linear-gradient(165deg, rgba(22,35,61,0.90) 0%, rgba(74,58,69,0.78) 42%, rgba(200,89,58,0.55) 78%, rgba(244,169,59,0.42) 100%),
-            url('https://images.unsplash.com/photo-1497486751825-1233686d5d80?auto=format&fit=crop&w=1600&q=70');
+            linear-gradient(165deg, rgba(22,35,61,0.50) 0%, rgba(74,58,69,0.38) 42%, rgba(200,89,58,0.25) 78%, rgba(244,169,59,0.42) 100%),
+            url('https://images.unsplash.com/photo-1609252509102-aa73ff792667?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
           background-size: cover;
           background-position: center;
           color: var(--cream-soft);
@@ -148,6 +148,9 @@ Error generating stack: `+e.message+`
           align-items: center;
           gap: 10px;
           margin-bottom: 18px;
+              text-align: center;
+    justify-content: center;
+
         }
         .sp-eyebrow::before {
           content: "";
